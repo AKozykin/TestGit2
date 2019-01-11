@@ -1,4 +1,4 @@
-package sample
+package TestGit.aid
 
 object TestGitObj {
   def main(args: Array[String]): Unit = {
