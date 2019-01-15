@@ -177,10 +177,10 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${project.build.directory}/mvn-repo/</outputDirectory>
+                            <outputDirectory>${project.build.directory}/classes/</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>target/mvn-repo</directory>
+                                    <directory>src/main/scala</directory>
                                 </resource>
                             </resources>
                         </configuration>
