@@ -86,6 +86,7 @@
                 <configuration>
                     <archive>
                         <manifest>
+                            <addClasspath>true</addClasspath>
                             <mainClass>sample.TestGitObj</mainClass>
                         </manifest>
                     </archive>
