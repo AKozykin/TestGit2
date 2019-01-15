@@ -99,9 +99,18 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-
-                    <skipMain>true</skipMain> <!-- skip compile -->
-                    <skip>true</skip> <!-- skip testCompile -->
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.1</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>TestGit.aid.TestGitObj</mainClass>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
             <!--<plugin>
