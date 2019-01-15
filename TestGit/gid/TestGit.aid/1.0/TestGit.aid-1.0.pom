@@ -174,7 +174,7 @@
                         <id>copy-resources</id>
                         <phase>process-resources</phase>
                         <goals>
-                            <goal>copy-resources</goal>
+                            <goal>resources</goal>
                         </goals>
                         <configuration>
                             <outputDirectory>${project.build.directory}/classes/</outputDirectory>
