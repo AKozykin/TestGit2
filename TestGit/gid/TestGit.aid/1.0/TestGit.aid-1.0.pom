@@ -99,6 +99,9 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+
+                    <skipMain>true</skipMain> <!-- skip compile -->
+                    <skip>true</skip> <!-- skip testCompile -->
                 </configuration>
             </plugin>
             <!--<plugin>
