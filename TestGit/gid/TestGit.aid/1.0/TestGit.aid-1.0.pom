@@ -85,7 +85,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>TestGitObj</mainClass>
+                            <mainClass>sample.TestGitObj</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
